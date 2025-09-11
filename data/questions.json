@@ -1,0 +1,88 @@
+{
+  "lessons": {
+    "Lesson 1: App Development": [
+      {"type":"mcq","question":"Which type of application runs inside a browser?","choices":["Desktop","Mobile","Web","Standalone"],"answer":2},
+      {"type":"tf","question":"Hybrid apps are a mix of web and mobile capabilities.","answer":true},
+      {"type":"id","question":"Who invented the World Wide Web?","answer":"tim berners-lee"},
+      {"type":"mcq","question":"Which SDLC stage focuses on writing the actual source code?","choices":["Design","Development","Testing","Deployment"],"answer":1},
+      {"type":"tf","question":"Deployment is the final and only stage of SDLC.","answer":false},
+      {"type":"mcq","question":"Which is NOT typically a type of application?","choices":["Mobile","Web","Hybrid","Protocol"],"answer":3},
+      {"type":"id","question":"Name one non-functional requirement type mentioned in the notes.","answer":"performance"},
+      {"type":"mcq","question":"Which activity is used in requirements gathering?","choices":["Interviews","Compilation","Formatting","Minifying"],"answer":0},
+      {"type":"tf","question":"Maintenance includes fixing bugs after deployment.","answer":true},
+      {"type":"mcq","question":"Which is an example of a functional requirement?","choices":["Response time","User login feature","Security policy","Scalability"],"answer":1},
+      {"type":"id","question":"What does 'SDLC' stand for?","answer":"software development life cycle"},
+      {"type":"mcq","question":"Which device type typically requires installation from an app store?","choices":["Web","Desktop","Mobile","Terminal"],"answer":2}
+    ],
+    "Lesson 2: Requirements Gathering": [
+      {"type":"mcq","question":"Which is a technique for gathering requirements?","choices":["Interviews","Compiling CSS","Minification","Bundling"],"answer":0},
+      {"type":"tf","question":"User requirements describe the goals and tasks users must complete.","answer":true},
+      {"type":"id","question":"Give one key stakeholder role (one word).","answer":"developer"},
+      {"type":"mcq","question":"Which tool is suitable for quick user surveys?","choices":["Jira","Trello","Google Forms","Draw.io"],"answer":2},
+      {"type":"tf","question":"Changing requirements is never a challenge in requirements gathering.","answer":false},
+      {"type":"mcq","question":"INVEST is used to describe good requirement traits. What does 'V' stand for?","choices":["Verifiable","Valuable","Visible","Variable"],"answer":1},
+      {"type":"id","question":"What is a common challenge caused by unclear language?","answer":"ambiguous language"},
+      {"type":"mcq","question":"Which of these is NOT a requirement type listed?","choices":["Functional","Non-Functional","Aesthetic","Business"],"answer":2},
+      {"type":"tf","question":"Prototyping is a technique used during requirements analysis.","answer":true},
+      {"type":"mcq","question":"Who often maintains the backlog/prioritization?","choices":["Designer","Project manager","End-user","Tester"],"answer":1},
+      {"type":"id","question":"Name one prototyping or diagram tool mentioned (two words allowed).","answer":"draw.io"},
+      {"type":"mcq","question":"Which activity validates the documented requirements?","choices":["Gather","Document","Validate","Analyze"],"answer":2}
+    ],
+    "Lesson 3: Interface Design Principles": [
+      {"type":"mcq","question":"Which principle suggests interfaces should be consistent across screens?","choices":["Affordance","Visibility","Consistency","Findability"],"answer":2},
+      {"type":"tf","question":"Accessibility ensures people with disabilities can use the product.","answer":true},
+      {"type":"id","question":"Name one UI element (button, forms, icons, etc.).","answer":"button"},
+      {"type":"mcq","question":"Which UX principle addresses trustworthiness of the platform?","choices":["Usability","Desirability","Credibility","Findability"],"answer":2},
+      {"type":"tf","question":"Affordance means that an element suggests how to use it.","answer":true},
+      {"type":"mcq","question":"What should forms include for clarity?","choices":["Random labels","Logical grouping","Hidden fields only","Multiple fonts"],"answer":1},
+      {"type":"id","question":"Which accessibility guideline acronym was mentioned?","answer":"wcag"},
+      {"type":"mcq","question":"Which is NOT a UI design element listed?","choices":["Buttons","Forms","Icons","Cryptography"],"answer":3},
+      {"type":"tf","question":"Typography and colors affect readability.","answer":true},
+      {"type":"mcq","question":"What is the purpose of navigation?","choices":["Make things hidden","Make assets heavy","Help users find pages","Crash the site"],"answer":2},
+      {"type":"id","question":"One usability activity in the UX process (one word).","answer":"testing"},
+      {"type":"mcq","question":"What increases user satisfaction and reduces errors?","choices":["Usability","Obfuscation","Complexity","Randomization"],"answer":0}
+    ],
+    "Lesson 4: Web Development Fundamentals": [
+      {"type":"mcq","question":"HTML stands for?","choices":["HyperText Markup Language","HighText Machine Language","HyperTool Mark Language","Hyperlink Transfer Markup"],"answer":0},
+      {"type":"tf","question":"CSS controls layout, colors, and fonts.","answer":true},
+      {"type":"id","question":"Name one section commonly used in page layout (header, footer, etc.).","answer":"header"},
+      {"type":"mcq","question":"Which tag embeds an image in HTML?","choices":["<img>","<image>","<picture>","<src>"],"answer":0},
+      {"type":"tf","question":"The <body> element contains visible page content.","answer":true},
+      {"type":"mcq","question":"Which is a self-closing HTML tag?","choices":["div","p","br","section"],"answer":2},
+      {"type":"id","question":"One way to apply CSS (one word).","answer":"external"},
+      {"type":"mcq","question":"Which part is frontend concerned with?","choices":["Database","Server-side logic","What the user sees","Deployment scripts"],"answer":2},
+      {"type":"tf","question":"Inline CSS is added inside the HTML tag.","answer":true},
+      {"type":"mcq","question":"Which element defines the title of the document?","choices":["<meta>","<title>","<head>","<header>"],"answer":1},
+      {"type":"id","question":"What attribute is required on <img> to reference the image?","answer":"src"},
+      {"type":"mcq","question":"Which section often holds navigation links?","choices":["Footer","Sidebar","Header","Script"],"answer":2}
+    ],
+    "Lesson 5: HTML Forms": [
+      {"type":"mcq","question":"Which method should you use to submit data that modifies server state?","choices":["GET","POST","PUT","LINK"],"answer":1},
+      {"type":"tf","question":"The <form> tag uses attributes like action and method.","answer":true},
+      {"type":"id","question":"Name one form control element (one word).","answer":"input"},
+      {"type":"mcq","question":"Which input type allows a user to pick one option only?","choices":["checkbox","radio","text","textarea"],"answer":1},
+      {"type":"tf","question":"GET requests should not be used to send sensitive form data.","answer":true},
+      {"type":"mcq","question":"Which attribute on <form> tells where to send the request?","choices":["method","action","target","name"],"answer":1},
+      {"type":"id","question":"What HTML element is used for multi-line text input?","answer":"textarea"},
+      {"type":"mcq","question":"Which control is suitable for multiple selections?","choices":["radio","select multiple","button","img"],"answer":1},
+      {"type":"tf","question":"Buttons are a form control to submit or reset forms.","answer":true},
+      {"type":"mcq","question":"Which is NOT a form method?","choices":["GET","POST","DELETE","PUT"],"answer":2},
+      {"type":"id","question":"One attribute to indicate the HTTP method used (one word).","answer":"method"},
+      {"type":"mcq","question":"Which input attribute sets a placeholder text?","choices":["label","placeholder","value","hint"],"answer":1}
+    ],
+    "Lesson 6: Intro to PHP": [
+      {"type":"mcq","question":"What does PHP stand for?","choices":["Preprocessed Hypertext","Personal Home Page","Hypertext Preprocessor","Private HTML Processor"],"answer":2},
+      {"type":"tf","question":"PHP is mainly used server-side.","answer":true},
+      {"type":"id","question":"Give one example task PHP can do (one word).","answer":"encrypt"},
+      {"type":"mcq","question":"Which file extension is typical for PHP files?","choices":[".html",".js",".php",".py"],"answer":2},
+      {"type":"tf","question":"PHP cannot interact with databases.","answer":false},
+      {"type":"mcq","question":"Which item is typically part of how PHP works?","choices":["Client-only","Web Browser -> HTTP request -> Web Server","Static assets only","No server"],"answer":1},
+      {"type":"id","question":"What is a common use for PHP in web apps (one word)?","answer":"session"},
+      {"type":"mcq","question":"Which is not specifically a PHP feature?","choices":["File handling","Session management","Generating dynamic HTML","Rendering client GPU shaders"],"answer":3},
+      {"type":"tf","question":"PHP is open-source.","answer":true},
+      {"type":"mcq","question":"PHP is often used to build which of these?","choices":["Mobile games","CMS systems","GPU drivers","Office suites"],"answer":1},
+      {"type":"id","question":"Name one database language PHP commonly uses to query data (acronym).","answer":"sql"},
+      {"type":"mcq","question":"Which environment typically runs PHP code?","choices":["Web server (like Apache)","Client browser only","Printer firmware","Text editor"],"answer":0}
+    ]
+  }
+}

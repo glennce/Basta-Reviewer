@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QuickReviewer — Web Dev Mini Reviewer</title>
+  <link rel="shortcut icon" href="images.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="images.png">
+  <link rel="manifest" href="manifest.webmanifest" type="application/manifest+json">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <h1 class="logo">QuickReviewer</h1>
+      <p class="subtitle">Pick a lesson, answer random questions — get instant feedback.</p>
+    </header>
+
+    <section class="controls card">
+      <div class="control-row">
+        <label for="lessonSelect">Choose lesson</label>
+        <select id="lessonSelect" aria-label="Choose lesson">
+          <option value="">-- Select lesson --</option>
+        </select>
+        <button id="startBtn" class="btn primary">Start</button>
+      </div>
+
+      <div class="control-row small">
+        <label><input id="shuffleAnswers" type="checkbox"> Shuffle choices</label>
+        <label><input id="randomTf" type="checkbox" checked> Randomize T/F as MCQ</label>
+      </div>
+    </section>
+
+    <section id="quizArea" class="card quiz-area hidden" aria-live="polite">
+      <div class="quiz-header">
+        <div id="progress">Question <span id="qIndex">0</span> / <span id="qTotal">0</span></div>
+        <div id="timer" class="muted"></div>
+      </div>
+
+      <div id="questionCard" class="question-card animated">
+        <div id="questionText" class="question-text"></div>
+        <form id="answersForm" class="answers-form"></form>
+      </div>
+
+      <div class="quiz-footer">
+        <button id="prevBtn" class="btn ghost">Previous</button>
+        <button id="nextBtn" class="btn">Next</button>
+        <button id="submitBtn" class="btn success">Submit</button>
+      </div>
+    </section>
+
+    <section id="resultArea" class="card result-area hidden">
+      <h2>Results</h2>
+      <div id="scoreSummary" class="score-summary"></div>
+      <div id="detailedResults" class="detailed-results"></div>
+      <div class="result-actions">
+        <button id="retryBtn" class="btn">Try Again</button>
+        <button id="backBtn" class="btn ghost">Back to Lessons</button>
+      </div>
+    </section>
+
+    <footer class="app-footer muted">
+      Built for learning • Animations + JSON-based questions
+    </footer>
+  </main>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
