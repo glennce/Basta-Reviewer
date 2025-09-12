@@ -1,5 +1,6 @@
 // script.js -- external script (ES module)
 const lessonSelect = document.getElementById('lessonSelect');
+const courseSelect = document.getElementById('courseSelect');
 const startBtn = document.getElementById('startBtn');
 const quizArea = document.getElementById('quizArea');
 const questionText = document.getElementById('questionText');
@@ -35,14 +36,14 @@ const shuffle = arr => {
 };
 
 // load questions.json
-async function loadJSON(){
-  try{
-    const res = await fetch('data/questions.json');
+async function loadJSON(courseKey){
+  try {
+    const res = await fetch(`data/${courseKey}.json`);
     allData = await res.json();
     populateLessonSelect();
-  }catch(e){
-    console.error('Failed to load questions.json:', e);
-    alert('Failed to load questions data. Make sure data/questions.json exists.');
+  } catch (e) {
+    console.error('Failed to load JSON:', e);
+    alert('Could not load questions for this course.');
   }
 }
 
@@ -383,6 +384,15 @@ retryBtn.addEventListener('click', retry);
 backBtn.addEventListener('click', backToLessons);
 window.addEventListener('beforeunload', ()=>{/* no-op */});
 
+// course dropdown hook
+courseSelect.addEventListener('change', () => {
+  const courseKey = courseSelect.value;
+  lessonSelect.innerHTML = '<option value="">-- Select lesson --</option>';
+  if(courseKey){
+    loadJSON(courseKey);
+  }
+});
+
 // answer saving on change
 answersForm.addEventListener('change', (e)=>{
   // auto save radio selections immediately
@@ -395,8 +405,5 @@ if ("serviceWorker" in navigator) {
         .then(() => console.log("Service Worker registered"))
         .catch(err => console.error("Service Worker error", err));
     }
-
-// initial load
-loadJSON();
 
 
