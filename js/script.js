@@ -163,6 +163,37 @@ function showQuestion(){
     if(answersGiven[currentIndex] !== null){
       label.querySelector('input').value = answersGiven[currentIndex];
     }
+    } else if(q.type === 'enum'){
+    // Enumeration: multiple answers expected
+    const count = q.answerCount || 3; // default to 3 blanks
+    for(let i=0; i<count; i++){
+      const label = document.createElement('label');
+      label.className = 'answer';
+      label.innerHTML = `<input type="text" class="enumAnswer" placeholder="Answer ${i+1}">`;
+      answersForm.appendChild(label);
+    }
+    // restore previous if available
+    if(Array.isArray(answersGiven[currentIndex])){
+      const inputs = answersForm.querySelectorAll('.enumAnswer');
+      answersGiven[currentIndex].forEach((val, idx) => {
+        if(inputs[idx]) inputs[idx].value = val;
+      });
+    }
+  } else if(q.type === 'debug'){
+    // Debugging: show code snippet and one input box
+    const snippet = document.createElement('pre');
+    snippet.className = 'code-block';
+    snippet.textContent = q.snippet || '';
+    answersForm.appendChild(snippet);
+
+    const label = document.createElement('label');
+    label.className = 'answer';
+    label.innerHTML = `<input type="text" class="debugAnswer" placeholder="Describe or fix the bug">`;
+    answersForm.appendChild(label);
+
+    if(answersGiven[currentIndex] !== null){
+      label.querySelector('input').value = answersGiven[currentIndex];
+    }
   }
 
   // update nav buttons
@@ -178,6 +209,14 @@ function saveCurrentAnswer(){
     if(sel) answersGiven[currentIndex] = sel.value;
   } else if(q.type === 'id'){
     const txt = answersForm.querySelector('input[type="text"]').value.trim();
+    answersGiven[currentIndex] = txt;
+    } else if(q.type === 'enum'){
+    const vals = Array.from(answersForm.querySelectorAll('.enumAnswer'))
+      .map(inp => inp.value.trim())
+      .filter(v => v !== '');
+    answersGiven[currentIndex] = vals;
+  } else if(q.type === 'debug'){
+    const txt = answersForm.querySelector('.debugAnswer').value.trim();
     answersGiven[currentIndex] = txt;
   }
 }
@@ -218,11 +257,40 @@ function evaluate(){
 
       if(user !== null && parseInt(user) === q.answer) correct = true;
     } else if(q.type === 'id'){
-      userDisplay = user === null || user === '' ? '(no answer)' : user;
-      correctDisplay = q.answer;
-      if(user !== null){
-        // case-insensitive comparison, ignore extra spaces
-        if(String(user).trim().toLowerCase() === String(q.answer).trim().toLowerCase()) correct = true;
+  userDisplay = user === null || user === '' ? '(no answer)' : user;
+
+  if(Array.isArray(q.answer)){
+    correctDisplay = q.answer.join(' / ');
+    if(user !== null){
+      const normalized = user.trim().toLowerCase();
+      correct = q.answer.some(ans => normalized === ans.trim().toLowerCase());
+    }
+  } else {
+    correctDisplay = q.answer;
+    if(user !== null){
+      if(String(user).trim().toLowerCase() === String(q.answer).trim().toLowerCase()) correct = true;
+    }
+  }
+}
+ else if(q.type === 'enum'){
+      const expected = Array.isArray(q.answer) ? q.answer.map(a => a.toLowerCase().trim()) : [];
+      const provided = Array.isArray(user) ? user.map(u => u.toLowerCase().trim()) : [];
+      const matches = provided.filter(p => expected.includes(p));
+      const needed = q.requiredCount || Math.min(3, expected.length);
+      correct = matches.length >= needed;
+
+      userDisplay = provided.length ? provided.join(', ') : '(no answer)';
+      correctDisplay = expected.join(', ');
+    } else if(q.type === 'debug'){
+      userDisplay = user && user.length ? user : '(no answer)';
+      correctDisplay = Array.isArray(q.answer) ? q.answer.join(', ') : q.answer;
+
+      if(user){
+        if(Array.isArray(q.answer)){
+          correct = q.answer.some(ans => user.toLowerCase().includes(ans.toLowerCase()));
+        } else {
+          correct = user.toLowerCase().includes(String(q.answer).toLowerCase());
+        }
       }
     }
 
