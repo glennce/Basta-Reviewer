@@ -18,7 +18,7 @@
       {"type":"id","question":"The seven-layer communication framework standardized for network functions.","answer":["OSI Model","OSI"]},
       {"type":"id","question":"The four-layer model widely used on the internet.","answer":["TCP/IP Model", "TCP/IP"]},
       {"type":"id","question":"In database systems, this model represents data as a graph.","answer":["Network Data Model","Network Data"]},
-      {"type":"id","question":"A model used in logistics and communication to make data movement efficient.","answer":["Network Flow Optimmization Model","Network Flow Optimmization"]},
+      {"type":"id","question":"A model used in logistics and communication to make data movement efficient.","answer":["Network Flow Optimization Model","Network Flow Optimization"]},
       {"type":"id","question":"Computer models inspired by the human brain, used in AI.","answer":["Neural Network Model","Neural Network"]},
       {"type":"id","question":"Models that map assets and connections to improve protection measures.","answer":["Security Model","Security"]}
     ],
@@ -91,7 +91,7 @@
       {"type":"enum","question":"Enumerate the types of network topologies.(No need to type 'topology')","answer":["Bus","Ring","Mesh","Tree","Hybrid","Point-to-Point","Star"],"answerCount":7,"requiredCount":7},
       {"type":"enum","question":"Enumerate the 7 layers of the OSI model.(No need to type 'layer')","answer":["Physical","Data Link","Network","Transport","Session","Presentation","Application"],"answerCount":7,"requiredCount":7},
       {"type":"enum","question":"Enumerate the 4 layers of the TCP/IP model.(No need to type 'layer')","answer":["Network Access","Internet","Transport","Application"],"answerCount":4,"requiredCount":4},
-      {"type":"enum","question":"Enumerate three examples of network models in specific applications.","answer":["Network Flow Optimization", "Neural Networks", "Security Models"],"answerCount":3,"requiredCount":3}
+      {"type":"enum","question":"Enumerate three examples of network models in specific applications.","answer":["Network Flow Optimization", "Neural Network", "Security Model","Neural Networks","Security Models"],"answerCount":3,"requiredCount":3}
     ]
   }
 }
