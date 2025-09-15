@@ -95,7 +95,7 @@
     ],
     "Test 5: Enumeration": [
       {"type":"enum","question":"List the 6 stages of SDLC.","answer":["Planning & analysis","Design","Development","Testing","Deployment","Maintenance"], "answerCount":6,"requiredCount":6},
-      {"type":"enum","question":"List 4 types of applications.","answer":["Web","Mobile","Desktop","Hybrid",], "answerCount":4,"requiredCount":4},
+      {"type":"enum","question":"List 4 types of applications.","answer":["Web","Mobile","Desktop","Hybrid"], "answerCount":4,"requiredCount":4},
       {"type":"enum","question":"List 3 activities in requirements gathering.","answer":["Interviews","Use Case","Questionaires","Use Case Development"], "answerCount":3,"requiredCount":3},
       {"type":"enum","question":"List 4 types of requirements.","answer":["Functional","Non-Functional","Business","User"], "answerCount":4,"requiredCount":4},
       {"type":"enum","question":"List 3 key stakeholders.","answer":["Clients","End-users","Project manager","Developers","Testers"], "answerCount":3,"requiredCount":3},
@@ -105,14 +105,14 @@
       {"type":"enum","question":"List 5 UX design principles.","answer":["Usability","Accessibility","Desirability","Credibility","Findability"], "answerCount":5,"requiredCount":5},
       {"type":"enum","question":"List 3 UI design elements.","answer":["Buttons","Forms","Navigation","Icons","Typography & Colors"], "answerCount":3,"requiredCount":3},
       {"type":"enum","question":"List 2 benefits of Usability.","answer":["Increases satisfaction","reduces errors","improves efficiency"], "answerCount":2,"requiredCount":2},
-      {"type":"enum","question":"List 2 benefits of Accessibility.","answer":["Inclusive design","compliance with WCAG."], "answerCount":2,"requiredCount":2},
-      {"type":"enum","question":"List 3 steps in UX design process.","answer":["Research","Personas","User Journey","Prototyping","Testing "], "answerCount":3,"requiredCount":3},
+      {"type":"enum","question":"List 2 benefits of Accessibility.","answer":["Inclusive design","compliance with WCAG"], "answerCount":2,"requiredCount":2},
+      {"type":"enum","question":"List 3 steps in UX design process.","answer":["Research","Personas","User Journey","Prototyping","Testing"], "answerCount":3,"requiredCount":3},
       {"type":"enum","question":"List 5 sections of common web page layout.","answer":["Header","Navigation","Body","sidebar","footer"], "answerCount":5,"requiredCount":5},
       {"type":"enum","question":"List 3 ways to apply CSS.","answer":["Inline","External","Internal"], "answerCount":3,"requiredCount":3},
       {"type":"enum","question":"List 5 HTML form controls.","answer":["Textbox","Radio button","Checkbox","Button","Textarea","Dropdown"], "answerCount":5,"requiredCount":5},
       {"type":"enum","question":"List 3 PHP features.","answer":["Dynamic content generation","Form handling","Database integration","Encryption"], "answerCount":3,"requiredCount":3},
       {"type":"enum","question":"List 3 tasks PHP can perform.","answer":["File management","Cookies handling","Encrypt data","Control Acccess"], "answerCount":3,"requiredCount":3},
-      {"type":"enum","question":"List 2 HTTP methods in forms.","answer":[["GET","POST"], "answerCount":2,"requiredCount":2},
+      {"type":"enum","question":"List 2 HTTP methods in forms.","answer":["GET","POST"], "answerCount":2,"requiredCount":2},
       {"type":"enum","question":"List 3 challenges in requirements gathering.","answer":["Miscommunication","Ambiguous language","Time constraints","Changing requirements"], "answerCount":3,"requiredCount":3}
     ]
   }
