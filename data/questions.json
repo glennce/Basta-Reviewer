@@ -25,7 +25,7 @@
       {"type":"id","question":"Which CSS method is applied within the <head> using <style>?","answer":"Internal CSS"},
       {"type":"id","question":"Who invented the World Wide Web?","answer":"Sir Timothy John Berners-Lee."},
       {"type":"id","question":"What PHP stands for?","answer":["PHP: Hypertext Preprocessor","PHP Hypertext Preprocessor"]},
-      {"type":"id","question":"What is the file extension for PHP files?","answer":".php"},
+      {"type":"id","question":"What is the file extension for PHP files?","answer":".php"}
     ],
     "Test 2: Multiple Choice": [
       {"type":"mcq","question":"Which SDLC stage involves fixing bugs and adapting to changes after deployment?","choices":["Testing","Deployment","Maintenance","Design"],"answer":2},
@@ -57,7 +57,7 @@
       {"type":"mcq","question":"Which of the following ensures inclusive web design?","choices":["Simplicity","Accessibility","Feedback","Visibility"],"answer":2},
       {"type":"mcq","question":"Which HTML tag defines the title in the browser tab?","choices":["header tag","title tag","head tag","meta tag"],"answer":2},
       {"type":"mcq","question":"Which CSS property changes text color?","choices":["font-size","color","background","margin"],"answer":2},
-      {"type":"mcq","question":"Which SDLC phase converts requirements into system blueprint?","choices":["Design","Development","Planning","Testing"],"answer":0},
+      {"type":"mcq","question":"Which SDLC phase converts requirements into system blueprint?","choices":["Design","Development","Planning","Testing"],"answer":0}
     ],
     "Test 3: True or False": [
       {"type":"tf","question":"Application development only applies to mobile apps.","answer":false},
@@ -66,7 +66,7 @@
       {"type":"tf","question":"Non-functional requirements include performance and security.","answer":true},
       {"type":"tf","question":"Clients and customers are key stakeholders.","answer":true},
       {"type":"tf","question":"Workshops are not used in requirements gathering.","answer":false},
-      {"type":"tf","question":"INVEST stands for Independent, Negotiable, Valuable, Estimable, Small, Testable.","answer"true:},
+      {"type":"tf","question":"INVEST stands for Independent, Negotiable, Valuable, Estimable, Small, Testable.","answer":true},
       {"type":"tf","question":"UI focuses on how a system looks, UX on how it feels.","answer":true},
       {"type":"tf","question":"Feedback means keeping design consistent.","answer":false},
       {"type":"tf","question":"Accessibility ensures inclusivity for disabled users.","answer":true},
@@ -84,7 +84,7 @@
       {"type":"tf","question":"Lucidchart is used for diagrams.","answer":true},
       {"type":"tf","question":"Navigation should be hard to locate to reduce complexity.","answer":false},
       {"type":"tf","question":"Credibility is part of UX principles.","answer":true},
-      {"type":"tf","question":"Consistency is part of UI principles.","answer":true},
+      {"type":"tf","question":"Consistency is part of UI principles.","answer":true}
     ],
     "Test 4: Debugging": [
       {"type":"debug","question":"Find the error and rewrite the correct snippet of code.","snippet":"<?php echo 'hello world!' ?>","answer":"<?php echo 'hello world!';?>"},
@@ -113,7 +113,7 @@
       {"type":"enum","question":"List 3 PHP features.","answer":["Dynamic content generation","Form handling","Database integration","Encryption"], "answerCount":3,"requiredCount":3},
       {"type":"enum","question":"List 3 tasks PHP can perform.","answer":["File management","Cookies handling","Encrypt data","Control Acccess"], "answerCount":3,"requiredCount":3},
       {"type":"enum","question":"List 2 HTTP methods in forms.","answer":[["GET","POST"], "answerCount":2,"requiredCount":2},
-      {"type":"enum","question":"List 3 challenges in requirements gathering.","answer":["Miscommunication","Ambiguous language","Time constraints","Changing requirements"], "answerCount":3,"requiredCount":3},
+      {"type":"enum","question":"List 3 challenges in requirements gathering.","answer":["Miscommunication","Ambiguous language","Time constraints","Changing requirements"], "answerCount":3,"requiredCount":3}
     ]
   }
 }
