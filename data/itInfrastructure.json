@@ -59,7 +59,7 @@
       {"type":"mcq","question":"Which OSI layer interacts directly with user applications?","choices":["Transport","Application","Session","Presentation"],"answer":"1"},
       {"type":"mcq","question":"Which of the following is a communication framework?","choices":["OSI Model","Neural Network","Security Model","Data Model"],"answer":"0"},
       {"type":"mcq","question":"Which of the following is a data representation system?","choices":["TCP/IP","Network Data Model","Neural Network","Flow Optimization"],"answer":"1"},
-      {"type":"mcq","question":"Which of the following is a tool for analyzing and optimizing complex processes?","choices":["Flow Optimization","Neural Network","Security Model","All of the Above"],"answer":"0"},
+      {"type":"mcq","question":"Which of the following is a tool for analyzing and optimizing complex processes?","choices":["Flow Optimization","Neural Network","Security Model","All of the Above"],"answer":"3"},
       {"type":"mcq","question":"Which type of cable is most commonly used in LAN?","choices":["Fiber optic","Coaxial","Twisted pair","Satellite"],"answer":"2"},
       {"type":"mcq","question":"A topology where failure of one device does not affect others but failure of the hub stops the system:","choices":["Mesh","Star","Ring","Tree"],"answer":"1"},
       {"type":"mcq","question":"Which network type is considered the backbone of cloud storage?","choices":["LAN","SAN","VPN","MAN"],"answer":"1"}
