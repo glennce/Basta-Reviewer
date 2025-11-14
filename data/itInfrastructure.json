@@ -43,9 +43,3 @@
     ]
   }
 }
-      {"type":"enum","question":"Enumerate the functions of Enterprise Resource Planning (ERP).","answer":["Integration of business processes","Real-time data management","Automation of routine tasks","Financial management","Supply chain and inventory management","Human resource management","Manufacturing and production planning","Reporting and analytics"],"answerCount":8,"requiredCount":4},
-      {"type":"enum","question":"List four benefits of ERP systems.","answer":["Improved efficiency","Better decision-making with real-time data","Enhanced collaboration across departments","Reduced operational costs"],"answerCount":4,"requiredCount":4},
-      {"type":"enum","question":"List three common risk treatment strategies (names).","answer":["Risk Acceptance","Risk Transfer","Risk Avoidance"],"answerCount":3,"requiredCount":3}
-    ]
-  }
-}
