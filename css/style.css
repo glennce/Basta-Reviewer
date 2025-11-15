@@ -154,3 +154,10 @@ select{
   margin-bottom: 12px;
   color: #d1dce6;
 }
+
+.feedback {
+  margin-top: 8px;
+  font-weight: 600;
+}
+.feedback.correct { color: green; }
+.feedback.wrong { color: red; }
