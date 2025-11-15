@@ -200,6 +200,10 @@ function showQuestion(){
   // update nav buttons
   prevBtn.disabled = currentIndex === 0;
   nextBtn.disabled = currentIndex === questions.length - 1;
+  const feedbackEl = document.getElementById('feedback');
+feedbackEl.textContent = '';
+feedbackEl.className = 'feedback';
+
 }
 
 function saveCurrentAnswer(){
@@ -393,12 +397,23 @@ courseSelect.addEventListener('change', () => {
   }
 });
 
-// answer saving on change
-answersForm.addEventListener('change', (e)=>{
-  // auto save radio selections immediately
-  const sel = answersForm.querySelector('input[name="choice"]:checked');
-  if(sel) answersGiven[currentIndex] = sel.value;
+// // answer saving on change
+// answersForm.addEventListener('change', (e)=>{
+//   // auto save radio selections immediately
+//   const sel = answersForm.querySelector('input[name="choice"]:checked');
+//   if(sel) answersGiven[currentIndex] = sel.value;
+// });
+answersForm.addEventListener('change', ()=>{
+  saveCurrentAnswer(); // keep saving for later
+  checkAnswerInstant(); // immediate feedback
 });
+
+// Also for text input (ID or enumeration)
+answersForm.addEventListener('input', ()=>{
+  saveCurrentAnswer();
+  checkAnswerInstant();
+});
+
 
 if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("service-worker.js")
@@ -407,3 +422,42 @@ if ("serviceWorker" in navigator) {
     }
 
 
+function checkAnswerInstant() {
+  const qPos = sessionOrder[currentIndex];
+  const q = questions[qPos];
+  const feedbackEl = document.getElementById('feedback');
+  let correct = false;
+
+  if(q.type === 'mcq' || q.type === 'tf'){
+    const sel = answersForm.querySelector('input[name="choice"]:checked');
+    if(!sel) {
+      feedbackEl.textContent = '';
+      return;
+    }
+    const user = parseInt(sel.value);
+    correct = user === q.answer;
+  } else if(q.type === 'id'){
+    const input = answersForm.querySelector('input[type="text"]');
+    const user = input.value.trim().toLowerCase();
+    if(!user){
+      feedbackEl.textContent = '';
+      return;
+    }
+    if(Array.isArray(q.answer)){
+      correct = q.answer.some(a => a.trim().toLowerCase() === user);
+    } else {
+      correct = q.answer.toString().trim().toLowerCase() === user;
+    }
+  } else if(q.type === 'enum'){
+    const inputs = Array.from(answersForm.querySelectorAll('.enumAnswer'));
+    const userAnswers = inputs.map(i => i.value.trim().toLowerCase()).filter(v=>v);
+    const expected = Array.isArray(q.answer) ? q.answer.map(a=>a.toLowerCase().trim()) : [];
+    const matches = userAnswers.filter(u => expected.includes(u));
+    const needed = q.requiredCount || Math.min(3, expected.length);
+    correct = matches.length >= needed;
+  }
+
+  // show feedback
+  feedbackEl.textContent = correct ? 'Correct ✅' : 'Wrong ❌';
+  feedbackEl.className = correct ? 'feedback correct' : 'feedback wrong';
+}
