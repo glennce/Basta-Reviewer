@@ -1,45 +1,556 @@
 {
   "lessons": {
     "All Items": [
-      {"type":"id","question":"What is the process that integrates and leverages digital technology to change how a business operates and align with strategic goals?","answer":"Digital Transformation"},
-      {"type":"id","question":"What is the structured approach that may play a cruciel role in enabling and supporting digital transformation initiatives across organizations?","answer":"Business Process Management (BPM)"},
-      {"type":"id","question":"What are those risks which involve the negative perception of a company by the public that hay be caused by poor customer service, negative publicity, or ethical issues?","answer":"Reputational Risks"},
-      {"type":"id","question":"What aspect of BPR requires an organization to rethink \"how work should be done\" instead of just making small improvements to existing processes?","answer":"Fundamental Rethinking"},
-      {"type":"id","question":"This treatment strategy is pursued when the organization chooses to transfer the risk or par of the risk to a third party provider or insurance company.t?","answer":"Risk Transfer"},
-      {"type":"id","question":"Simple mistakes made by employees can lead to errors in data ontry, incorrect order processing, or lailure to follow established procedures, causing disruptions and potential losses what are they called?","answer":"Human Errors"},
-      {"type":"id","question":"What is the management practice that involves a fundamental rethinking and radical redesign of core business processes to achieve dramatic improvements in performance metrics?","answer":"Business Process Reengineering (BPR)"},
-      {"type":"id","question":"What is the strategy in treating risks when the organization chooses not to move forward with that risk and avoids incurring it?","answer":"Risk Avoidance"},
-      {"type":"id","question":"What aspect of BPR involves changing the processes from the ground up to achieve substantial, not incremental, improvements?","answer":"Radical Redesign"},
-      {"type":"id","question":"What are those risks that have the potential to impact an organization's overall strategy and long-term objectives? Major technological shifts or comipetitive pressure, are some examples","answer":"Strategic Risks"},
-      {"type":"id","question":"This is a soltware platform that integrates and automates core business processes, such as finance, manufacturing, supply chain, and human resources, into a single system with a shared database.","answer":"Enterprise Resource Planning (ERP)"},
-      {"type":"id","question":"Handing over business processes or functions to another company or independent contractor is classified as what?","answer":"Outsourcing"},
-      {"type":"id","question":"These risks involve the potential for a company to viclate laws, regulations, or internal policies, which can result in penalties, lawsuits, or other legal consequences,","answer":"Compliance Risks"},
-      {"type":"id","question":"What is the treatment of risks where the organization consider to accept the risks that are within the acceptable tolerance threshold?","answer":"Risk Acceptance"},
-      {"type":"id","question":"What is the pursuit of efficiency through the removal/reduction or standardizalion of human touch points and IT systems across an organization - both within and across target business processes.","answer":"Process Standardization"},
-      {"type":"id","question":"It is described as the ability to work effectively across cultures,","answer":"Cultural Intelligence"},
-      {"type":"id","question":"A form of outsourcing that involves relocating business processes or lunctlons to a different country is known as what?","answer":"Offshoring"},
-      {"type":"id","question":"What is that accepted treatment of risks where the ofganauon estabiisnes an acton pia or reaucing or lmitng nsk to acceptable IeveIst","answer":"Risk Mitigation"},
-      {"type":"id","question":"What risks category involve malfunctions or breakdowns in a company's technology infrastructure, such as software crashes, power outages, and network failures?","answer":"Technological/IT Risks"},
-      {"type":"id","question":"What are these risks that erise from issues in the day-to-day operations, such as equipment failure, supply chain disruptions, or inelfective processes that can lead to errors and customer dissatisfaction?","answer":"Operational Risks"},
-      
-      {"type":"id","question":"What are these risks that arise from issues in the day-to-day operations, such as equipmen failure, supply chain disrptions, or ineffective processes that can lead to errors and custome dissatisfaction?","answer":"Operational Risks"},
-      {"type":"id","question":"What risks category involve mlfnctions or brakdowns in a company s technobory infrastructure, such as software crashes, power outages, and network failures?","answer":"Technological/IT Risks"},
-      {"type":"id","question":"What is that accepted treatment of risks where the organization establishes an action plan for reducing or limiting risk to acceptable levels?","answer":"Risk Mitigation"},
-      {"type":"id","question":"A form of outsourcing that involves relocating business processes or functions to a different country is known as what?","answer":"Offshoring"},
-      {"type":"id","question":"It is described as the ability to work effectivelv across cultures","answer":"Cultural Intelligence"},
-      {"type":"id","question":"What is the pursuit of efficiency through the removal/reduction or standardization of human touch points and IT systems across an organization -both within and across target business processes.","answer":"Process Standardization"},
-      {"type":"id","question":"What is the treatment of risks where the organization consider to accept the risks that are within the acceptable tolerance threshold?","answer":"Risk Acceptance"},
-      {"type":"id","question":"These risks involve the potential for a company to violate laws,regulations, or intemnal policieg which can result in penalties, lawsuits, or other legal consequences,","answer":"Compliance Risks"},
-      {"type":"id","question":"Handing over business processes or functions to another company or independent contracto is classified as what?","answer":"Outsourcing"},
-      {"type":"id","question":"This is a software platfomm that integrates and automates core business processes, such as finance, manufacturing, supply chain, and human resources, into a single system with a shared database","answer":"Enterprise Resource Planning (ERP)"},
-      {"type":"id","question":"What are those risks that have the potential to impact-an organization's overall strategy and long-term objectives? Major technologica! shifts or competitive pressure, are some examples.","answer":"Strategic Risks"},
-      {"type":"id","question":"What aspect of BPR involves changing the processes from the ground up to achieve substantial, not incremental, improvements","answer":"Radical Redesign"},
-      {"type":"id","question":"What is the structured approach that may play a crucial role in enabling and supporting digital translormation initiatives across organizationg","answer":"Business Process Management (BPM)"},
-      {"type":"id","question":"What is the process that integrates and leverages digital technology to change how g business operates and align with strategic gool","answer":"Digital Transformation"},
-
-      {"type":"enum","question":"Key strategies for managing cross-cultural business processes:","answer":["Cultural awareness training","Clear communication standards","Inclusive leadership practices","Adapting processes to local contexts","Use of collaboration tools"],"answerCount":5,"requiredCount":5},
-      {"type":"enum","question":"What are the core principles of Business Process Reengineering?","answer":["Organize around outcomes, not tasks","Identify and prioritize key processes","Use IT as an enabler of process redesign","Seek dramatic improvements rather than incremental","Empower employees and reduce bureaucracy"],"answerCount":5,"requiredCount":5},
-      {"type":"enum","question":"Enumerate and describe the functions and benefits of Enterprise Resource Planning (ERP).","answer":["Integration of business processes","Real-time data management","Automation of routine tasks","Financial management","Supply chain and inventory management","Human resource management","Manufacturing and production planning","Reporting and analytics"],"answerCount":8,"requiredCount":8}
+      {
+        "type": "mcq",
+        "question": "Which protocol is responsible for automatically assigning IP addresses to devices on a network?",
+        "choices": [
+          "DNS",
+          "VLAN",
+          "DHCP",
+          "IPv6"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "What is the purpose of a VLAN (Virtual LAN)?",
+        "choices": [
+          "To assign physical IP addresses automatically.",
+          "To forward traffic to other networks.",
+          "To segment networks logically within a switch.",
+          "To resolve domain names to IP addresses."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "The command `tracert [IP/domain]` is used for which purpose?",
+        "choices": [
+          "To view the device's IP configuration.",
+          "To display the current switch configuration.",
+          "To trace the route packets take to a destination.",
+          "To automatically assign a new IP address."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "What is the key function of a Default Gateway?",
+        "choices": [
+          "To resolve an IP address to a domain name.",
+          "To forward traffic to other networks.",
+          "To automatically configure a host's network settings.",
+          "To divide a network into smaller subnets."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "Which command is used in **Windows** to view a device's current IP configuration?",
+        "choices": [
+          "`ifconfig`",
+          "`ipconfig`",
+          "`show running-config`",
+          "`ping`"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "What is the primary role of DNS (Domain Name System)?",
+        "choices": [
+          "To test network connectivity.",
+          "To divide large networks.",
+          "To resolve domain names to IP addresses.",
+          "To handle logical segmentation of networks."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "IPv6 addresses use how many bits for unique identification?",
+        "choices": [
+          "32 bits",
+          "64 bits",
+          "128 bits",
+          "256 bits"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "What is the main benefit of Subnetting?",
+        "choices": [
+          "Enabling automated IP assignment.",
+          "Helping in efficient IP usage by dividing networks into smaller logical subnets.",
+          "Resolving device names to their unique identifiers.",
+          "Logging and tracking all network traffic."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "Which command displays the current configuration of a router or switch?",
+        "choices": [
+          "`ipconfig`",
+          "`ping`",
+          "`tracert`",
+          "`show running-config`"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "question": "A VLAN improves network management by allowing:",
+        "choices": [
+          "Logical segmentation of networks.",
+          "Automated assignment of 128-bit addresses.",
+          "Testing connectivity between two distant devices.",
+          "Displaying the system's IP routing table."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Which type of malware is disguised as legitimate software to trick the user?",
+        "choices": [
+          "Worm",
+          "Virus",
+          "Trojan",
+          "Ransomware"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "The key difference between a Virus and a Worm is that:",
+        "choices": [
+          "A virus disguises itself; a worm encrypts files.",
+          "A virus needs user action to spread; a worm replicates automatically.",
+          "A virus floods the network; a worm is an encryption tool.",
+          "A virus is a fraudulent email; a worm is a spoofed IP."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "Which attack involves flooding a network with traffic to disrupt service?",
+        "choices": [
+          "Phishing",
+          "Spoofing",
+          "Ransomware",
+          "Denial of Service (DoS)"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "question": "How does a Firewall protect a network?",
+        "choices": [
+          "By encrypting data in transit.",
+          "By demanding payment to decrypt files.",
+          "By filtering incoming/outgoing traffic and blocking unauthorized access.",
+          "By automatically patching vulnerabilities."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Which mitigation measure is specifically designed to secure data while it is being transmitted across the network?",
+        "choices": [
+          "Firewalls",
+          "Strong passwords",
+          "Encryption",
+          "Antivirus"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Ransomware is a type of malware that specifically does what?",
+        "choices": [
+          "Spreads by attaching to files.",
+          "Encrypts files and demands payment.",
+          "Floods the network with traffic.",
+          "Disguises itself as a trusted application."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "Phishing is defined as a fraudulent attempt to acquire what?",
+        "choices": [
+          "Network access logs.",
+          "Operational efficiency data.",
+          "Sensitive information.",
+          "System configuration files."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Spoofing is a threat that involves the attacker:",
+        "choices": [
+          "Disguising as a trusted source.",
+          "Automatically replicating across the network.",
+          "Encrypting the victim's data.",
+          "Sending excessive traffic to a server."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "A key mitigation measure to reduce unauthorized access is the use of:",
+        "choices": [
+          "Regular updates.",
+          "Antivirus software.",
+          "Strong passwords & MFA.",
+          "Network segmentation."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Regular updates serve which crucial role in network security mitigation?",
+        "choices": [
+          "To filter traffic.",
+          "To reduce encryption complexity.",
+          "To patch vulnerabilities.",
+          "To perform mechanical motion."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "What is the core definition of the Internet of Things (IoT)?",
+        "choices": [
+          "A network of computers only.",
+          "Interconnection of everyday devices to collect, send, and act on data.",
+          "A highly specific industrial control system.",
+          "A virtual model of a physical system."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "In the IoT architecture, the component that performs actions based on collected data is the:",
+        "choices": [
+          "Sensor",
+          "Gateway",
+          "Cloud platform",
+          "Actuator"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "question": "Which component detects environmental parameters in an IoT system?",
+        "choices": [
+          "Actuator",
+          "Sensor",
+          "Controller/CPU",
+          "Cloud platform"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "Which IoT component connects devices to the Internet?",
+        "choices": [
+          "Sensor",
+          "Actuator",
+          "Cloud platform",
+          "Gateway"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "question": "Edge Computing is a concept in IoT that involves processing data:",
+        "choices": [
+          "Only in the central cloud platform.",
+          "After it has been archived.",
+          "Near the source for faster response.",
+          "Using highly detailed historical logs."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Which of the following is listed as a common IoT protocol?",
+        "choices": [
+          "DHCP",
+          "DNS",
+          "MQTT",
+          "SCADA"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Smart home devices like thermostats and security cameras are examples of:",
+        "choices": [
+          "Industrial IoT (IIoT).",
+          "Basic Robotics components.",
+          "Internet of Things (IoT) devices.",
+          "Network configuration devices."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "The IoT component that centralizes data processing for all connected devices is the:",
+        "choices": [
+          "Gateway",
+          "Sensor",
+          "Actuator",
+          "Cloud platform"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "question": "Which protocol, commonly used in IoT, is designed for constrained devices and low-bandwidth networks?",
+        "choices": [
+          "TCP/IP",
+          "HTTP",
+          "COAP",
+          "SNMP"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "A smartwatch or a fitness tracker falls under the IoT example category of:",
+        "choices": [
+          "Industrial arms.",
+          "Smart factories.",
+          "Wearables.",
+          "SCADA systems."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Industrial IoT (IIoT) is defined as the use of IoT technologies in:",
+        "choices": [
+          "Smart home environments.",
+          "Wearable devices.",
+          "Industrial environments for automation, monitoring, and analytics.",
+          "Basic robotics only."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Which IIoT application involves using AI to forecast equipment failures before they happen?",
+        "choices": [
+          "Smart factories",
+          "Real-time monitoring",
+          "Predictive maintenance",
+          "Digital twin modeling"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "The primary benefit of using Predictive Maintenance in industrial operations is to:",
+        "choices": [
+          "Increase data encryption.",
+          "Reduce downtime.",
+          "Segment the network logically.",
+          "Automate IP address assignment."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "What is a Digital Twin?",
+        "choices": [
+          "A security measure using strong encryption.",
+          "A self-replicating type of malware.",
+          "A virtual model of a physical system used for simulation and monitoring.",
+          "A protocol for low-bandwidth communication."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Which device is listed as a core technology used in IIoT, typically for industrial control?",
+        "choices": [
+          "DHCP server",
+          "DNS resolver",
+          "PLC (Programmable Logic Controller)",
+          "Smart thermostat"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "One of the primary Benefits of IIoT deployment is to achieve:",
+        "choices": [
+          "Manual operation.",
+          "Increased operational efficiency.",
+          "Longer maintenance cycles.",
+          "Fixed IP addressing."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "SCADA (Supervisory Control and Data Acquisition) systems are primarily associated with which environment?",
+        "choices": [
+          "Office networking.",
+          "Personal computing.",
+          "Industrial IoT (IIoT).",
+          "Basic robotics."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "The use of IIoT enables companies to make decisions that are:",
+        "choices": [
+          "Based on manual observation.",
+          "Subjective and delayed.",
+          "Data-driven.",
+          "Limited to internal hardware."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Which IIoT application involves comprehensive, automated manufacturing environments?",
+        "choices": [
+          "Predictive maintenance",
+          "Smart factories",
+          "Wearable tracking",
+          "Core networking"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "IIoT applications typically focus on the real-time monitoring of:",
+        "choices": [
+          "Customer service tickets.",
+          "Financial transaction logs.",
+          "Machines.",
+          "Employee vacation schedules."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "The function of an Actuator in robotics is to:",
+        "choices": [
+          "Gather environmental data.",
+          "Process commands.",
+          "Convert electrical energy into mechanical motion.",
+          "Provide error correction feedback."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "What is the purpose of a Sensor component in robotics?",
+        "choices": [
+          "To perform mechanical motion.",
+          "To gather environmental data.",
+          "To process instructions.",
+          "To store raw data logs."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "The Controller/CPU component in a robot is responsible for:",
+        "choices": [
+          "Gathering data.",
+          "Performing motion.",
+          "Processing commands.",
+          "Converting energy."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "How do Feedback/Control Systems help a robot?",
+        "choices": [
+          "By automatically assigning an IP address.",
+          "By allowing error correction and precise movements.",
+          "By filtering incoming traffic.",
+          "By resolving domain names."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "Which of the following is listed as a Type of Robot?",
+        "choices": [
+          "Firewalls",
+          "Gateways",
+          "Cobots",
+          "DNS resolvers"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "The design, construction, operation, and use of robots is the definition of:",
+        "choices": [
+          "IIoT.",
+          "Actuation.",
+          "Robotics.",
+          "Edge Computing."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "Industrial arms are categorized under which key concept?",
+        "choices": [
+          "Network commands.",
+          "Security threats.",
+          "Types of Robots.",
+          "Data logging protocols."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "question": "To ensure precision and adaptation, robots rely on which system?",
+        "choices": [
+          "Actuators.",
+          "Feedback/Control Systems.",
+          "Virus definitions.",
+          "Logical segmentation."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "Robots categorized as Humanoid are listed under which section of the file?",
+        "choices": [
+          "Components.",
+          "Types of Robots.",
+          "Control Systems.",
+          "Applications."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "The essential component that takes the processed commands and implements physical movement is the:",
+        "choices": [
+          "Sensor.",
+          "Controller/CPU.",
+          "Actuator.",
+          "Cobot."
+        ],
+        "answer": 2
+      }
     ]
   }
 }
