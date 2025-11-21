@@ -52,7 +52,7 @@
       {"type":"id","question":"The industry case study where Data Marts are used for analyzing Sales, inventory, and customer behavior.","answer":"Retail"},
       {"type":"id","question":"The industry case study where Data Marts are used specifically for Fraud detection and credit risk reporting.","answer":"Banking"},
       {"type":"id","question":"The primary limitation of a Data Mart, which restricts visibility across departments compared to a full DW.","answer":"Limited Scope"},
-      {"type":"id","question":"The principle that Data Mart design should always align with specific business goals and needs to ensure long-term value.","answer":"Best Practice"},
+      {"type":"id","question":"The principle that Data Mart design should always align with specific business goals and needs to ensure long-term value.","answer":"Best Practice"}
     ],
     "Test 2: Multiple Choice": [
       {"type":"mcq","question":"What is the primary characteristic of a Data Mart?","choices":["It is a replica of the entire enterprise database.","It focuses on real-time transaction processing.","It is a subject-oriented subset of a data warehouse.","It is a complex, unaggregated data lake."],"answer":2},
@@ -218,4 +218,5 @@
     ]
   }
 }
+
 
