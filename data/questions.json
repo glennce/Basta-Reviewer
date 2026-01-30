@@ -80,13 +80,14 @@
       {"type": "id","question":"The reason and purpose of the project—what it is trying to achieve.","answer": "Scope"}
     ],
     "Test 3: Enumeration":[
-      {"type": "enum","question":"List the 5 Phases of the Project Management Life Cycle","answer": ["Initiation","Planning","Execution","Monitoring & Controlling","Closing"],"answerCount": 5,"requiredCount": 5}
-      {"type": "enum","question":"Enumerate 8 Project Management Skills (Management Skills)","answer": ["Integration", "Scope", "Schedule", "Cost", "Quality", "Resource","Risk","Procurement"],"answerCount": 8,"requiredCount": 8}
-      {"type": "enum","question":"List 6 Interpersonal Skills for Project Managers","answer": ["Communication", "Influence","Leadership","Motivation","Negotiation","Problem Solving"],"answerCount": 6,"requiredCount": 6}
-      {"type": "enum","question":"Enumerate the 5 Factors of the Project Environment","answer": ["Cultural","Social","International","Political","Physical"],"answerCount": 5,"requiredCount": 5}
-      {"type": "enum","question":"Name the 3 Primary Constraints (Triple Constraint)","answer": ["Schedule","Scope","Cost"],"answerCount": 3,"requiredCount":3}
+      {"type": "enum","question":"List the 5 Phases of the Project Management Life Cycle","answer": ["Initiation","Planning","Execution","Monitoring & Controlling","Closing"],"answerCount": 5,"requiredCount": 5},
+      {"type": "enum","question":"Enumerate 8 Project Management Skills (Management Skills)","answer": ["Integration", "Scope", "Schedule", "Cost", "Quality", "Resource","Risk","Procurement"],"answerCount": 8,"requiredCount": 8},
+      {"type": "enum","question":"List 6 Interpersonal Skills for Project Managers","answer": ["Communication", "Influence","Leadership","Motivation","Negotiation","Problem Solving"],"answerCount": 6,"requiredCount": 6},
+      {"type": "enum","question":"Enumerate the 5 Factors of the Project Environment","answer": ["Cultural","Social","International","Political","Physical"],"answerCount": 5,"requiredCount": 5},
+      {"type": "enum","question":"Name the 3 Primary Constraints (Triple Constraint)","answer": ["Schedule","Scope","Cost"],"answerCount": 3,"requiredCount":3},
       {"type": "enum","question":"List 2 Modern PM Tools developed in the 1950s","answer": ["PERT","Critical Path Method", "CPM"],"answerCount": 3,"requiredCount": 2}
     ]
   }
 }
+
 
