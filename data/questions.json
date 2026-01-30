@@ -25,8 +25,32 @@
       {"type":"mcq","question":"Dealing with disagreements and reaching agreements is known as:","choices":["Influence", "Negotiation", "Integration", "Procurement"],"answer":1},
       {"type":"mcq","question":"Which skill is essential for resolving conflicts or obstacles during a project?","choices":["Problem Solving", "Motivation", "Physical Environment", "Cost Management"],"answer":0},
       {"type":"mcq","question":"Integration, Scope, and Quality Management are categorized as: ","choices":["Interpersonal Skills", "Project Environment", "Management Skills", "Life Cycle Phases"],"answer":2},
-      {"type":"mcq","question":"Communication Management and Influence are examples of:","choices":["Technical Skills", "Interpersonal Skills", "Physical Skills", "Budget Skills"],"answer":1}
+      {"type":"mcq","question":"Communication Management and Influence are examples of:","choices":["Technical Skills", "Interpersonal Skills", "Physical Skills", "Budget Skills"],"answer":1},
+      {"type":"mcq","question":"How does the Project Management Institute (PMI) define a project?","choices":["A routine activity", "A temporary endeavor to create a unique product or service", "A permanent operational process", "A sequence of daily tasks"],"answer":1},
+      {"type":"mcq","question":"What are the three primary parameters (triple constraint) that define a project's completion?","choices":["Size, Color, Speed", "Time, Budget, Scope ", "Quality, Quantity, Location", "People, Materials, Logic"],"answer":1},
+      {"type":"mcq","question":"Which modern project management tool was developed by Henry Gantt in the 1910s?","choices":["PERT Chart", "Gantt Chart", "CPM Table", "Agile Board"],"answer":1},
+      {"type":"mcq","question":"Which project management tool was developed for the U.S. Navy’s Polaris missile program?","choices":["PERT", "CPM", "Gantt", "Agile"],"answer":0},
+      {"type":"mcq","question":"The Critical Path Method (CPM) was originally developed for what purpose?","choices":["Missile programs", "Plant maintenance projects", "Building pyramids", "Softare development"],"answer":1},
+      {"type":"mcq","question":"Which phase is crucial for defining the project's purpose and obtaining formal approval?","choices":["Planning", "Execution", "Initiation", "Closing"],"answer":2},
+      {"type":"mcq","question":"In which phase is the project charter created?","choices":["Execution", "Closing", "Initiation", "Monitoring"],"answer":2},
+      {"type":"mcq","question":"Laying the groundwork for project success' by detailing tasks and budgets occurs in which phase? ","choices":["Initiation", "Planning", "Closing", "Execution"],"answer":1},
+      {"type":"mcq","question":"During the Execution phase, what is the primary activity? ","choices":["Defining goals", "Creating the charter", "Putting the project plan into action", "Finalizing documents"],"answer":2},
+      {"type":"mcq","question":"Which phase focuses on tracking performance metrics and identifying deviations?","choices":["Planning", "Initiation", "Monitoring & Controlling", "Closing"],"answer":2},
+      {"type":"mcq","question":"What is the purpose of the Closing phase?","choices":["Starting the team", "Formal conclusion of the project", "Tracking metrics", "Buying materials"],"answer":1},
+      {"type":"mcq","question":"Capturing 'lessons learned' through post-project evaluations is part of: ","choices":["Planning", "Execution", "Closing", "Monitoring"],"answer":2},
+      {"type":"mcq","question":"Which type of project involves creating something new and innovative to gain a competitive advantage?","choices":["Strategic Project", "Operational Project", "Compliance Project", "Routine Project"],"answer":0},
+      {"type":"mcq","question":"Projects done to meet industry or governmental regulations are called:","choices":["Strategic", "Operational", "Compliance", "Agile"],"answer":2},
+      {"type":"mcq","question":"Which methodology uses short development cycles called 'sprints'? ","choices":["Traditional", "Waterfall", "Agile", "CPM"],"answer":2},
+      {"type":"mcq","question":"Which constraint refers to the reason and purpose of the project—what it is trying to achieve?","choices":["Cost", "Quality", "Scope", "Risk"],"answer":2},
+      {"type":"mcq","question":"What term is used when a project requires corrective action because it went over its budget?","choices":["Scope Creep", "Budget Blowout", "Sprint", "Compliance"],"answer":1},
+      {"type":"mcq","question":"Cultural, Social, and Political factors are considered part of the: ","choices":["Triple Constraint", "Project Environment", "Execution Phase", "Budget"],"answer":1},
+      {"type":"mcq","question":"Management Skills like Scope and Cost Management are also known as:","choices":["Interpersonal Skills", "Project Environment", "Knowledge Areas", "Sprints"],"answer":2},
+      {"type":"mcq","question":"Which interpersonal skill involves the ability to guide and inspire a team?","choices":["Negotiation", "Motivation", "Leadership Skills", "Problem Solving"],"answer":2},
+      {"type":"mcq","question":"Dealing with disagreements and reaching agreements is the skill of:","choices":["Influence", "Negotiation", "Integration", "Communication"],"answer":1},
+      {"type":"mcq","question":"Which project management history example highlights a project 'gone wrong' with cost blowouts? ","choices":["Hoover Dam", "Manhattan Project", "Sydney 2000 Olympic site building", "Great Pyramids"],"answer":2},
+      {"type":"mcq","question":"Use it or lose it' is an approach often associated with which project constraint? ","choices":["Scope", "Quality", "Cost (Funding/Grants)", "Risk"],"answer":2},
+      {"type":"mcq","question":"Tracking performance metrics to achieve project goals is a key activity in:","choices":["Initiation", "Planning", "Monitoring & Controlling", "Closing"],"answer":2},
+      {"type":"mcq","question":"Which organization is behind the PRINCE2 certification?","choices":["PMI", "AXELOS", "IPMA", "US Navy"],"answer":1}
     ]
   }
 }
-
