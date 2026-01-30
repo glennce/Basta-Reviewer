@@ -6,7 +6,7 @@
       {"type":"mcq","question":"Which phase is crucial for defining the project's purpose and obtaining formal approval?","choices":[Execution, Planning, Initiation, Closing],"answer":2},
       {"type":"mcq","question":"In which document is the formal approval of a project usually recorded during initiation?","choices":[Project Charter, Final Report, Invoice, Status Update],"answer":0},
       {"type":"mcq","question":"Which phase involves specifying tasks, resources, timelines, and budgets? ","choices":[Initiation, Planning, Execution, Monitoring],"answer":1},
-      {"type":"mcq","question":""Laying the groundwork for project success" is the primary goal of which phase? ","choices":[Planning, Closing, Execution, Discovery],"answer":0},
+      {"type":"mcq","question":"'Laying the groundwork for project success' is the primary goal of which phase? ,"choices":[Planning, Closing, Execution, Discovery],"answer":0},
       {"type":"mcq","question":"During which phase is the project plan actually put into action?","choices":[Initiation, Planning, Execution, Closing],"answer":2},
       {"type":"mcq","question":"Managing teams and stakeholder communications is a key activity in which phase?","choices":[Planning, Initiation, Execution, Evaluation],"answer":2},
       {"type":"mcq","question":"Which phase focuses on tracking performance metrics and identifying deviations from the plan?","choices":[Initiation, Execution, Planning, Monitoring & Controlling],"answer":3},
@@ -29,4 +29,5 @@
     ]
   }
 }
+
 
