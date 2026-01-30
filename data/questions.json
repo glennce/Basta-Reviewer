@@ -1,33 +1,32 @@
 {
   "lessons": {
     "Test 2: Multiple Choice": [
-      {"type":"mcq","question":"What is the systematic application of knowledge, skills, tools, and techniques to deliver specific project objectives?","choices":[Resource Management, Project Management, Quality Control, Scope Creep],"answer":1},
-      {"type":"mcq","question":"Project management ensures projects are completed within what defined parameters?","choices":[Time, Budget, Scope, Size, Color, Location, People, Places, Things, Input, Output, Storage],"answer":0},
-      {"type":"mcq","question":"Which phase is crucial for defining the project's purpose and obtaining formal approval?","choices":[Execution, Planning, Initiation, Closing],"answer":2},
-      {"type":"mcq","question":"In which document is the formal approval of a project usually recorded during initiation?","choices":[Project Charter, Final Report, Invoice, Status Update],"answer":0},
-      {"type":"mcq","question":"Which phase involves specifying tasks, resources, timelines, and budgets? ","choices":[Initiation, Planning, Execution, Monitoring],"answer":1},
-      {"type":"mcq","question":"'Laying the groundwork for project success' is the primary goal of which phase? ,"choices":[Planning, Closing, Execution, Discovery],"answer":0},
-      {"type":"mcq","question":"During which phase is the project plan actually put into action?","choices":[Initiation, Planning, Execution, Closing],"answer":2},
-      {"type":"mcq","question":"Managing teams and stakeholder communications is a key activity in which phase?","choices":[Planning, Initiation, Execution, Evaluation],"answer":2},
-      {"type":"mcq","question":"Which phase focuses on tracking performance metrics and identifying deviations from the plan?","choices":[Initiation, Execution, Planning, Monitoring & Controlling],"answer":3},
-      {"type":"mcq","question":"What is the purpose of implementing adjustments during the Monitoring and Controlling phase?","choices":[To start over, To achieve project goals, To fire the team, To increase the budget],"answer":1},
-      {"type":"mcq","question":"Which phase brings the project to a formal conclusion?","choices":[Execution, Monitoring, Closing, Initiation],"answer":2},
-      {"type":"mcq","question":"Conducting post-project evaluations to capture lessons learned occurs during:","choices":[Initiation, Planning, Execution, Closing],"answer":3},
-      {"type":"mcq","question":"Gaining stakeholder acceptance is a final step in which phase?","choices":[Closing, Monitoring, Execution, Planning],"answer":0},
-      {"type":"mcq","question":"Which of the following is NOT a phase of the Project Life Cycle mentioned?","choices":[Initiation, Execution, Marketing, Planning],"answer":2},
-      {"type":"mcq","question":"Which Management Skill area involves managing the project's timeline?","choices":[Cost Management, Schedule Management, Risk Management, Scope Management],"answer":1},
-      {"type":"mcq","question":"Managing the financial constraints of a project is part of:","choices":[Cost Management, Quality Management, Resource Management, Integration],"answer":0},
-      {"type":"mcq","question":"Which knowledge area deals with identifying and responding to project uncertainties?","choices":[Procurement, Risk Management, Scope, Communication],"answer":1},
-      {"type":"mcq","question":"Procurement Management involves what activity?","choices":[Hiring staff, Purchasing goods/services, Fixing bugs, Writing code],"answer":1},
-      {"type":"mcq","question":"Cultural, Social, and International factors are part of the: ","choices":[Management Skills, Project Environment, Execution Phase, Interpersonal Skills],"answer":1},
-      {"type":"mcq","question":"Political and Physical factors fall under which category?","choices":[Project Environment, Scope Management, Quality Control, Closing],"answer":0},
-      {"type":"mcq","question":"Which interpersonal skill involves the ability to guide and inspire a team?","choices":[Negotiation, Motivation, Leadership Skills, Problem Solving],"answer":2},
-      {"type":"mcq","question":"Dealing with disagreements and reaching agreements is known as:","choices":[Influence, Negotiation, Integration, Procurement],"answer":1},
-      {"type":"mcq","question":"Which skill is essential for resolving conflicts or obstacles during a project?","choices":[Problem Solving, Motivation, Physical Environment, Cost Management],"answer":0},
-      {"type":"mcq","question":"Integration, Scope, and Quality Management are categorized as: ","choices":[Interpersonal Skills, Project Environment, Management Skills, Life Cycle Phases],"answer":2},
-      {"type":"mcq","question":"Communication Management and Influence are examples of:","choices":[Technical Skills, Interpersonal Skills, Physical Skills, Budget Skills],"answer":1}
+      {"type":"mcq","question":"What is the systematic application of knowledge, skills, tools, and techniques to deliver specific project objectives?","choices":["Resource Management", "Project Management", "Quality Control", "Scope Creep"],"answer":1},
+      {"type":"mcq","question":"Project management ensures projects are completed within what defined parameters?","choices":["Time, Budget, Scope", "Size, Color, Location", "People, Places, Things", "Input, Output, Storage"],"answer":0},
+      {"type":"mcq","question":"Which phase is crucial for defining the project's purpose and obtaining formal approval?","choices":["Execution", "Planning", "Initiation", "Closing"],"answer":2},
+      {"type":"mcq","question":"In which document is the formal approval of a project usually recorded during initiation?","choices":["Project Charter", "Final Report", "Invoice", "Status Update"],"answer":0},
+      {"type":"mcq","question":"Which phase involves specifying tasks, resources, timelines, and budgets? ","choices":["Initiation", "Planning", "Execution", "Monitoring"],"answer":1},
+      {"type":"mcq","question":"'Laying the groundwork for project success' is the primary goal of which phase? ","choices":["Planning", "Closing", "Execution", "Discovery"],"answer":0},
+      {"type":"mcq","question":"During which phase is the project plan actually put into action?","choices":["Initiation", "Planning", "Execution", "Closing"],"answer":2},
+      {"type":"mcq","question":"Managing teams and stakeholder communications is a key activity in which phase?","choices":["Planning", "Initiation", "Execution", "Evaluation"],"answer":2},
+      {"type":"mcq","question":"Which phase focuses on tracking performance metrics and identifying deviations from the plan?","choices":["Initiation", "Execution", "Planning", "Monitoring & Controlling"],"answer":3},
+      {"type":"mcq","question":"What is the purpose of implementing adjustments during the Monitoring and Controlling phase?","choices":["To start over", "To achieve project goals", "To fire the team", "To increase the budget"],"answer":1},
+      {"type":"mcq","question":"Which phase brings the project to a formal conclusion?","choices":["Execution", "Monitoring", "Closing", "Initiation"],"answer":2},
+      {"type":"mcq","question":"Conducting post-project evaluations to capture lessons learned occurs during:","choices":["Initiation", "Planning", "Execution", "Closing"],"answer":3},
+      {"type":"mcq","question":"Gaining stakeholder acceptance is a final step in which phase?","choices":["Closing", "Monitoring", "Execution", "Planning"],"answer":0},
+      {"type":"mcq","question":"Which of the following is NOT a phase of the Project Life Cycle mentioned?","choices":["Initiation", "Execution", "Marketing", "Planning"],"answer":2},
+      {"type":"mcq","question":"Which Management Skill area involves managing the project's timeline?","choices":["Cost Management", "Schedule Management", "Risk Management", "Scope Management"],"answer":1},
+      {"type":"mcq","question":"Managing the financial constraints of a project is part of:","choices":["Cost Management", "Quality Management", "Resource Management", "Integration"],"answer":0},
+      {"type":"mcq","question":"Which knowledge area deals with identifying and responding to project uncertainties?","choices":["Procurement", "Risk Management", "Scope", "Communication"],"answer":1},
+      {"type":"mcq","question":"Procurement Management involves what activity?","choices":["Hiring staff", "Purchasing goods/services", "Fixing bugs", "Writing code"],"answer":1},
+      {"type":"mcq","question":"Cultural, Social, and International factors are part of the: ","choices":["Management Skills", "Project Environment", "Execution Phase", "Interpersonal Skills"],"answer":1},
+      {"type":"mcq","question":"Political and Physical factors fall under which category?","choices":["Project Environment", "Scope Management", "Quality Control", "Closing"],"answer":0},
+      {"type":"mcq","question":"Which interpersonal skill involves the ability to guide and inspire a team?","choices":["Negotiation", "Motivation", "Leadership Skills", "Problem Solving"],"answer":2},
+      {"type":"mcq","question":"Dealing with disagreements and reaching agreements is known as:","choices":["Influence", "Negotiation", "Integration", "Procurement"],"answer":1},
+      {"type":"mcq","question":"Which skill is essential for resolving conflicts or obstacles during a project?","choices":["Problem Solving", "Motivation", "Physical Environment", "Cost Management"],"answer":0},
+      {"type":"mcq","question":"Integration, Scope, and Quality Management are categorized as: ","choices":["Interpersonal Skills", "Project Environment", "Management Skills", "Life Cycle Phases"],"answer":2},
+      {"type":"mcq","question":"Communication Management and Influence are examples of:","choices":["Technical Skills", "Interpersonal Skills", "Physical Skills", "Budget Skills"],"answer":1}
     ]
   }
 }
-
 
