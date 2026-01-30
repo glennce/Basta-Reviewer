@@ -1,6 +1,6 @@
 {
   "lessons": {
-    "Test 2: Multiple Choice": [
+    "Test 1: Multiple Choice": [
       {"type":"mcq","question":"What is the systematic application of knowledge, skills, tools, and techniques to deliver specific project objectives?","choices":["Resource Management", "Project Management", "Quality Control", "Scope Creep"],"answer":1},
       {"type":"mcq","question":"Project management ensures projects are completed within what defined parameters?","choices":["Time, Budget, Scope", "Size, Color, Location", "People, Places, Things", "Input, Output, Storage"],"answer":0},
       {"type":"mcq","question":"Which phase is crucial for defining the project's purpose and obtaining formal approval?","choices":["Execution", "Planning", "Initiation", "Closing"],"answer":2},
@@ -51,6 +51,42 @@
       {"type":"mcq","question":"Use it or lose it' is an approach often associated with which project constraint? ","choices":["Scope", "Quality", "Cost (Funding/Grants)", "Risk"],"answer":2},
       {"type":"mcq","question":"Tracking performance metrics to achieve project goals is a key activity in:","choices":["Initiation", "Planning", "Monitoring & Controlling", "Closing"],"answer":2},
       {"type":"mcq","question":"Which organization is behind the PRINCE2 certification?","choices":["PMI", "AXELOS", "IPMA", "US Navy"],"answer":1}
+    ],
+    "Test 2: Identification": [
+      {"type": "id","question":"The systematic application of knowledge, skills, tools, and techniques to deliver specific objectives. ","answer": "Project Management"},
+      {"type": "id","question":"A temporary endeavor to create a unique product or service according to the PMI.","answer": "Project"},
+      {"type": "id","question":"The specific person responsible for coordinating resources to achieve project objectives.","answer": "Project Manager"},
+      {"type": "id","question":"The three primary constraints: Schedule, Scope, and Cost. ","answer": ["Triple Constraint","Triple Constraints"]},
+      {"type": "id","question":"This phase is crucial for defining the project's purpose and obtaining formal approval.","answer": "Initiation Phase"},
+      {"type": "id","question":"A formal document created during the initiation phase to authorize the project.","answer": "Project Charter"},
+      {"type": "id","question":"This phase involves specifying tasks, resources, timelines, and budgets. ","answer": "Planning Phase"},
+      {"type": "id","question":"The phase where the project plan is actually put into action.","answer": "Execution Phase"},
+      {"type": "id","question":"This phase involves tracking performance metrics and identifying deviations from the plan.","answer": "Monitoring & Controlling Phase"},
+      {"type": "id","question":"The final phase that brings a project to a formal conclusion.","answer": "Closing Phase"},
+      {"type": "id","question":"Evaluation conducted at the end of a project to capture lessons learned.","answer": "Post-project evaluation"},
+      {"type": "id","question":"Projects done to comply with industry or governmental regulations.","answer": "Compliance Projects"},
+      {"type": "id","question":"Projects that involve creating something new and innovative to gain a competitive advantage.","answer": "Strategic Projects"},
+      {"type": "id","question":"Projects focused on improving current operations or reducing costs.","answer": "Operational Projects"},
+      {"type": "id","question":"An iterative process focusing on constant continuous releases and customer feedback.","answer": "Agile Methodology"},
+      {"type": "id","question":"Short development cycles in Agile, typically lasting 2 to 3 weeks. ","answer": "Sprints"},
+      {"type": "id","question":"The bar chart developed in the 1910s that illustrates a project schedule.","answer": "Gantt Chart"},
+      {"type": "id","question":"Developed in the 1950s for the U.S. Navy’s Polaris missile program.","answer": ["PERT","pert"]},
+      {"type": "id","question":"Methodology developed in the 1950s for managing plant maintenance projects.","answer": ["Critical Path Method", " CPM"]},
+      {"type": "id","question":"Knowledge area dealing with identifying and responding to project uncertainties.","answer": "Risk Management"},
+      {"type": "id","question":"Knowledge area focused on purchasing goods and services.","answer": "Procurement Management"},
+      {"type": "id","question":"This interpersonal skill involves guiding and inspiring a team.","answer": "Leadership Skills"},
+      {"type": "id","question":"Dealing with disagreements to reach a mutual agreement.","answer": "Negotiation"},
+      {"type": "id","question":"The 'use it or lose it' approach usually refers to which constraint? ","answer": ["Cost","Budget"]},
+      {"type": "id","question":"The reason and purpose of the project—what it is trying to achieve.","answer": "Scope"}
+    ],
+    "Test 3: Enumeration":[
+      {"type": "enum","question":"List the 5 Phases of the Project Management Life Cycle","answer": ["Initiation","Planning","Execution","Monitoring & Controlling","Closing"],"answerCount": 5,"requiredCount": 5}
+      {"type": "enum","question":"Enumerate 8 Project Management Skills (Management Skills)","answer": ["Integration", "Scope", "Schedule", "Cost", "Quality", "Resource","Risk","Procurement"],"answerCount": 8,"requiredCount": 8}
+      {"type": "enum","question":"List 6 Interpersonal Skills for Project Managers","answer": ["Communication", "Influence","Leadership","Motivation","Negotiation","Problem Solving"],"answerCount": 6,"requiredCount": 6}
+      {"type": "enum","question":"Enumerate the 5 Factors of the Project Environment","answer": ["Cultural","Social","International","Political","Physical"],"answerCount": 5,"requiredCount": 5}
+      {"type": "enum","question":"Name the 3 Primary Constraints (Triple Constraint)","answer": ["Schedule","Scope","Cost"],"answerCount": 3,"requiredCount":3}
+      {"type": "enum","question":"List 2 Modern PM Tools developed in the 1950s","answer": ["PERT","Critical Path Method", "CPM"],"answerCount": 3,"requiredCount": 2}
     ]
   }
 }
+
