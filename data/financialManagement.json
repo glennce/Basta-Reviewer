@@ -3,551 +3,584 @@
     "All Items": [
       {
         "type": "mcq",
-        "question": "What is the process of planning, organizing, directing, and controlling financial resources to achieve goals?",
+        "question": "Financial management refers to the planning, organizing, directing, and controlling of:",
         "choices": [
-          "Human Resource Management",
-          "Financial Management",
-          "Marketing Management",
-          "Operations Management"
+          "Human resources",
+          "Financial activities",
+          "Production processes",
+          "Marketing strategies"
         ],
         "answer": 1
       },
       {
         "type": "mcq",
-        "question": "Which function of management deals with drawing out a future course of action and deciding appropriate actions in advance?",
+        "question": "The main goal of financial management is:",
         "choices": [
-          "Organizing",
-          "Staffing",
-          "Planning",
-          "Controlling"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "mcq",
-        "question": "What is the primary purpose of financial management?",
-        "choices": [
-          "To increase the number of employees",
-          "To ensure funds are used efficiently, sustainably, and profitably",
-          "To create marketing advertisements",
-          "To manage physical security of the building"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Which process involves bringing together physical, financial, and human resources for goal achievement?",
-        "choices": [
-          "Organizing",
-          "Directing",
-          "Planning",
-          "Budgeting"
+          "Maximizing shareholder wealth",
+          "Reducing the number of employees",
+          "Increasing product prices",
+          "Eliminating competition"
         ],
         "answer": 0
       },
       {
         "type": "mcq",
-        "question": "What is the focus of 'Staffing' in management?",
+        "question": "Which financial decision involves determining where company funds should be invested?",
         "choices": [
-          "Creating financial reports",
-          "Manning the organization structure and keeping it manned",
-          "Setting sales targets",
-          "Calculating interest rates"
+          "Dividend decision",
+          "Investment decision",
+          "Financing decision",
+          "Budget decision"
         ],
         "answer": 1
       },
       {
         "type": "mcq",
-        "question": "Which element of Directing implies overseeing the work of subordinates by their superiors?",
+        "question": "Determining how a company obtains funds is known as:",
         "choices": [
-          "Motivation",
-          "Leadership",
-          "Supervision",
-          "Communication"
+          "Investment decision",
+          "Dividend decision",
+          "Financing decision",
+          "Operational decision"
         ],
         "answer": 2
       },
       {
         "type": "mcq",
-        "question": "What does 'Controlling' imply in the management process?",
+        "question": "Deciding whether profits should be distributed to shareholders or reinvested is called:",
         "choices": [
-          "Hiring new staff",
-          "Measuring accomplishment against standards and correcting deviations",
-          "Inspiring workers to work harder",
-          "Creating the company's vision"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Which objective focuses on increasing the long-term value of the organization?",
-        "choices": [
-          "Profit Maximization",
-          "Wealth Maximization",
-          "Liquidity Management",
-          "Expense Reduction"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Ensuring there is enough cash to meet daily operations and obligations is called:",
-        "choices": [
-          "Financial Stability",
-          "Wealth Maximization",
-          "Liquidity Management",
-          "Capital Budgeting"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "mcq",
-        "question": "Which area of financial management involves forecasting income and expenses?",
-        "choices": [
-          "Financing Decisions",
-          "Investment Decisions",
-          "Financial Planning",
-          "Risk Management"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "mcq",
-        "question": "Evaluating projects, equipment, or business opportunities is part of:",
-        "choices": [
-          "Capital Budgeting",
-          "Working Capital Management",
-          "Financial Control",
-          "Bookkeeping"
+          "Dividend decision",
+          "Investment decision",
+          "Financing decision",
+          "Budget decision"
         ],
         "answer": 0
       },
       {
         "type": "mcq",
-        "question": "Determining whether to use equity, loans, or retained earnings for funding is a:",
+        "question": "A Financial Information System (FIS) is mainly used to:",
         "choices": [
-          "Investment Decision",
-          "Financing Decision",
-          "Staffing Decision",
-          "Marketing Decision"
+          "Collect and process financial data",
+          "Train employees",
+          "Develop products",
+          "Monitor attendance"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "type": "mcq",
-        "question": "Which of these is a financial tool used to identify the level of sales where total revenue equals total costs?",
+        "question": "Which of the following is an example of a Financial Information System?",
+        "choices": [
+          "Accounting software",
+          "Video editing software",
+          "Game development software",
+          "Graphic design software"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Financial Information Systems help organizations primarily to:",
+        "choices": [
+          "Improve decision making",
+          "Create advertisements",
+          "Increase employee numbers",
+          "Monitor internet usage"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Which financial statement shows the financial position of a company?",
         "choices": [
           "Income Statement",
-          "Cash Flow Analysis",
-          "Break-even Analysis",
-          "Balance Sheet"
+          "Balance Sheet",
+          "Cash Flow Statement",
+          "Budget Statement"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "The accounting equation is:",
+        "choices": [
+          "Assets = Liabilities + Equity",
+          "Assets = Revenue − Expenses",
+          "Equity = Assets − Revenue",
+          "Liabilities = Assets + Expenses"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Assets refer to:",
+        "choices": [
+          "What the company owes",
+          "What the company owns",
+          "Owner withdrawals",
+          "Business expenses"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "Liabilities refer to:",
+        "choices": [
+          "Owner investments",
+          "Business profits",
+          "What the company owes",
+          "Company assets"
         ],
         "answer": 2
       },
       {
         "type": "mcq",
-        "question": "What financial statement shows revenues, expenses, and profit/loss over time?",
+        "question": "Equity represents:",
+        "choices": [
+          "Owner’s investment in the business",
+          "Total expenses",
+          "Borrowed funds",
+          "Sales revenue"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Which financial statement reports profit or loss for a period?",
         "choices": [
           "Balance Sheet",
           "Income Statement",
           "Cash Flow Statement",
-          "Statement of Retained Earnings"
+          "Capital Budget"
         ],
         "answer": 1
       },
       {
         "type": "mcq",
-        "question": "A Balance Sheet answers which of the following questions?",
+        "question": "Net Income is calculated as:",
         "choices": [
-          "Did the business earn or lose money?",
-          "Where did the cash go?",
-          "What does the business own and owe?",
-          "How many employees are working?"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "mcq",
-        "question": "Which tool uses numerical comparisons to evaluate performance, profitability, and liquidity?",
-        "choices": [
-          "Financial Ratios",
-          "Budgeting",
-          "Audit Trails",
-          "Executive Summaries"
+          "Revenue − Expenses",
+          "Revenue + Expenses",
+          "Assets − Liabilities",
+          "Equity − Liabilities"
         ],
         "answer": 0
       },
       {
         "type": "mcq",
-        "question": "Which software is preferred for creating structured narratives and detailed financial reports?",
+        "question": "Revenue refers to:",
         "choices": [
-          "MS Excel",
-          "MS Word",
-          "MS PowerPoint",
-          "MS Access"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "What is the 'life-spark' of the enterprise that sets it in motion?",
-        "choices": [
-          "Planning",
-          "Organizing",
-          "Directing",
-          "Staffing"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "mcq",
-        "question": "Which of these is NOT a step in the control process?",
-        "choices": [
-          "Establishment of standard performance",
-          "Measurement of actual performance",
-          "Delegation of authority",
-          "Corrective action"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "mcq",
-        "question": "MS Word is used in financial management to create customized, professional:",
-        "choices": [
-          "Heavy computations",
-          "Invoices and Billing",
-          "Statistical modeling",
-          "Database management"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "What is the main purpose of staffing as described in the material?",
-        "choices": [
-          "To save money on salaries",
-          "To put the right person on the right job",
-          "To create organizational charts",
-          "To manage office supplies"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Working Capital Management focuses on:",
-        "choices": [
-          "Long-term investments",
-          "Smooth daily operations and managing cash/inventory",
-          "Choosing board members",
-          "Macroeconomic trends"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Which element of Directing is defined as a 'bridge of understanding'?",
-        "choices": [
-          "Leadership",
-          "Motivation",
-          "Communication",
-          "Supervision"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "mcq",
-        "question": "A financial plan that estimates expected income and expenses for a period is a:",
-        "choices": [
-          "Ledger",
-          "Budget",
-          "Ratio",
-          "Voucher"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Which activity involves creating guidelines for inventory control and asset management?",
-        "choices": [
-          "Developing Procedures Manuals",
-          "Drafting Narratives",
-          "Auditing",
-          "Directing"
+          "Income from sales",
+          "Cost of production",
+          "Money borrowed",
+          "Employee wages"
         ],
         "answer": 0
       },
       {
         "type": "mcq",
-        "question": "What is summarized in an 'Executive Summary'?",
+        "question": "Cost of Goods Sold (COGS) refers to:",
         "choices": [
-          "Employee contact lists",
-          "Complex financial analysis and investment opportunities",
-          "Daily attendance",
-          "Social media updates"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Financial Management helps prevent what?",
-        "choices": [
-          "Competition",
-          "Wasteful spending",
-          "Product innovation",
-          "Profit"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "The three activities reported in a Cash Flow Statement are:",
-        "choices": [
-          "Buying, Selling, Trading",
-          "Operating, Investing, Financing",
-          "Planning, Organizing, Staffing",
-          "Profit, Loss, Break-even"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Which function includes Manpower Planning and Recruitment?",
-        "choices": [
-          "Directing",
-          "Organizing",
-          "Staffing",
-          "Controlling"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "mcq",
-        "question": "The identification, classification, and assignment of duties are part of:",
-        "choices": [
-          "Planning",
-          "Organizing",
-          "Directing",
-          "Controlling"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "What is the term for inspiring or encouraging subordinates to work with zeal?",
-        "choices": [
-          "Motivation",
-          "Supervision",
-          "Management",
-          "Discipline"
+          "Cost of producing goods",
+          "Employee salary",
+          "Marketing expenses",
+          "Office rent"
         ],
         "answer": 0
       },
       {
         "type": "mcq",
-        "question": "Which tool focuses on actual cash, not just accounting profits?",
+        "question": "Gross Profit is calculated as:",
+        "choices": [
+          "Sales − COGS",
+          "Revenue − Assets",
+          "Revenue − Liabilities",
+          "Assets − Expenses"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Which statement reports cash inflows and outflows?",
         "choices": [
           "Income Statement",
-          "Cash Flow Analysis",
-          "Financial Ratios",
-          "Procedures Manual"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "In the control process, what follows 'Measurement of actual performance'?",
-        "choices": [
-          "Setting goals",
-          "Hiring staff",
-          "Comparison with standards",
-          "Paying taxes"
-        ],
-        "answer": 2
-      },
-      {
-        "type": "mcq",
-        "question": "Which area of documentation involves outlining potential risks and mitigation strategies?",
-        "choices": [
-          "Risk Management and Compliance",
-          "Invoicing and Billing",
-          "Strategic Analysis",
-          "Directing"
-        ],
-        "answer": 0
-      },
-      {
-        "type": "mcq",
-        "question": "Why might a business use Word instead of Excel for financial statements?",
-        "choices": [
-          "Excel cannot do math",
-          "Word offers more flexibility in formatting for narrative reports",
-          "Word is faster at calculation",
-          "Excel is too expensive"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Which of these is a 'Real-Life Application' of Financial Management?",
-        "choices": [
-          "Personal finance and budgeting",
-          "Watching movies",
-          "Learning a new language",
-          "Gardening"
-        ],
-        "answer": 0
-      },
-      {
-        "type": "mcq",
-        "question": "Maintaining records for accounts payable and receivable is part of:",
-        "choices": [
-          "Strategic Planning",
-          "Record Keeping",
-          "Leadership",
-          "Profit Maximization"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Profit Maximization ensures the organization earns enough to:",
-        "choices": [
-          "Close down",
-          "Survive and grow",
-          "Pay for vacations",
-          "Avoid all taxes"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "What is used to explain financial metrics to stakeholders by integrating tables and charts with text?",
-        "choices": [
-          "Data Interpretation",
-          "Staffing",
-          "Motivation",
-          "Recruitment"
-        ],
-        "answer": 0
-      },
-      {
-        "type": "mcq",
-        "question": "Which management function is described as the 'basic function'?",
-        "choices": [
-          "Planning",
-          "Organizing",
-          "Directing",
-          "Controlling"
-        ],
-        "answer": 0
-      },
-      {
-        "type": "mcq",
-        "question": "Preparing audit trails and maintaining documentation for compliance is known as:",
-        "choices": [
-          "Auditing Documentation",
-          "Financing Decision",
-          "Market Analysis",
-          "Operational Control"
-        ],
-        "answer": 0
-      },
-      {
-        "type": "mcq",
-        "question": "Financial Management ensures that funds are sufficient for:",
-        "choices": [
-          "Past debts only",
-          "Future needs",
-          "Marketing only",
-          "Entertainment"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "The process of searching and choosing the person for a position is:",
-        "choices": [
-          "Performance Appraisal",
-          "Recruitment and Selection",
-          "Remuneration",
-          "Promotion"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Which type of control system helps predict deviations before they occur?",
-        "choices": [
-          "Weak system",
-          "Efficient system of control",
-          "Manual system",
-          "Random system"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Forecasting revenue, costs, and cash flow involves drafting:",
-        "choices": [
-          "Invoices",
-          "Narratives and projections",
-          "Staffing plans",
-          "Marketing flyers"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Which term describes the process of passing information and opinion from one person to another?",
-        "choices": [
-          "Supervision",
-          "Communication",
-          "Motivation",
-          "Directing"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "Delegation of authority and creation of responsibility is a task under:",
-        "choices": [
-          "Planning",
-          "Organizing",
-          "Controlling",
-          "Liquidity"
-        ],
-        "answer": 1
-      },
-      {
-        "type": "mcq",
-        "question": "What provides information about what a business owns and owes at a specific date?",
-        "choices": [
-          "Income Statement",
-          "Break-even Analysis",
+          "Cash Flow Statement",
           "Balance Sheet",
-          "Executive Summary"
+          "Budget Report"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "Which activity in the cash flow statement involves daily business operations?",
+        "choices": [
+          "Operating activities",
+          "Investing activities",
+          "Financing activities",
+          "Marketing activities"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Liquidity ratios measure the company’s ability to:",
+        "choices": [
+          "Earn profits",
+          "Pay short-term debts",
+          "Increase sales",
+          "Reduce taxes"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "question": "The formula for Current Ratio is:",
+        "choices": [
+          "Current Assets ÷ Current Liabilities",
+          "Net Income ÷ Assets",
+          "Debt ÷ Equity",
+          "COGS ÷ Inventory"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Return on Assets (ROA) measures:",
+        "choices": [
+          "Profit generated from assets",
+          "Sales growth",
+          "Debt level",
+          "Inventory usage"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "ROA is calculated as:",
+        "choices": [
+          "Net Income ÷ Total Assets",
+          "Net Income ÷ Equity",
+          "Assets ÷ Liabilities",
+          "Sales ÷ Assets"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Return on Equity (ROE) measures:",
+        "choices": [
+          "Profit earned from shareholders’ investment",
+          "Inventory turnover",
+          "Debt management",
+          "Cash management"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Debt to Equity Ratio measures:",
+        "choices": [
+          "Company profitability",
+          "Company liquidity",
+          "Financial leverage",
+          "Employee productivity"
         ],
         "answer": 2
       },
       {
         "type": "mcq",
-        "question": "Financial Management supports business:",
+        "question": "Inventory Turnover is calculated as:",
         "choices": [
-          "Decline",
-          "Stagnation",
-          "Growth and expansion",
-          "Bankruptcy"
+          "COGS ÷ Average Inventory",
+          "Sales ÷ Assets",
+          "Assets ÷ Inventory",
+          "Inventory ÷ Sales"
         ],
-        "answer": 2
+        "answer": 0
       },
       {
         "type": "mcq",
-        "question": "Which is an element of Directing that guides and influences subordinates?",
+        "question": "Budgeting refers to:",
         "choices": [
-          "Leadership",
-          "Accounting",
-          "Auditing",
-          "Billing"
+          "Planning future financial activities",
+          "Recording past transactions",
+          "Hiring employees",
+          "Selling products"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Budgeting helps organizations to:",
+        "choices": [
+          "Plan spending and control costs",
+          "Increase taxes",
+          "Hire more employees",
+          "Avoid planning"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "A Sales Budget estimates:",
+        "choices": [
+          "Future sales",
+          "Inventory levels",
+          "Production costs",
+          "Employee salaries"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "A Production Budget determines:",
+        "choices": [
+          "Units needed to meet sales demand",
+          "Cash balance",
+          "Marketing cost",
+          "Loan payments"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "A Cash Budget estimates:",
+        "choices": [
+          "Cash inflows and outflows",
+          "Employee performance",
+          "Inventory storage",
+          "Product design"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "A Master Budget is:",
+        "choices": [
+          "Combination of all budgets",
+          "Only a sales budget",
+          "Only a production budget",
+          "Only a cash budget"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Forecasting is used to:",
+        "choices": [
+          "Predict future financial outcomes",
+          "Record past transactions",
+          "Hire employees",
+          "Pay taxes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Budget Variance is calculated as:",
+        "choices": [
+          "Actual Results − Budgeted Results",
+          "Budget − Actual",
+          "Revenue − Expenses",
+          "Assets − Liabilities"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "The Time Value of Money means:",
+        "choices": [
+          "Money today is worth more than in the future",
+          "Money value never changes",
+          "Money decreases automatically",
+          "Money has no time value"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Which is a reason for Time Value of Money?",
+        "choices": [
+          "Inflation",
+          "Employee training",
+          "Marketing campaigns",
+          "Office equipment"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Future Value calculates:",
+        "choices": [
+          "Growth of money over time",
+          "Past expenses",
+          "Debt payments",
+          "Inventory costs"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Future Value formula is:",
+        "choices": [
+          "FV = PV(1 + r)^n",
+          "FV = PV ÷ r",
+          "FV = PV − r",
+          "FV = PV + n"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Present Value calculates:",
+        "choices": [
+          "Value of future money today",
+          "Total company assets",
+          "Employee salaries",
+          "Sales growth"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "An annuity refers to:",
+        "choices": [
+          "Equal payments at regular intervals",
+          "Random payments",
+          "Single payment investment",
+          "Variable payments"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "An annuity where payments occur at the end of each period is called:",
+        "choices": [
+          "Ordinary Annuity",
+          "Annuity Due",
+          "Perpetuity",
+          "Discounted annuity"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Capital budgeting evaluates:",
+        "choices": [
+          "Long-term investment projects",
+          "Employee salaries",
+          "Marketing strategies",
+          "Office maintenance"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "The Payback Period measures:",
+        "choices": [
+          "Time needed to recover initial investment",
+          "Total profit earned",
+          "Company revenue",
+          "Interest payments"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Net Present Value (NPV) is calculated as:",
+        "choices": [
+          "PV of Cash Inflows − Initial Investment",
+          "Revenue − Expenses",
+          "Assets − Liabilities",
+          "Profit − Sales"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "If NPV is greater than zero, the project should be:",
+        "choices": [
+          "Accepted",
+          "Rejected",
+          "Delayed",
+          "Ignored"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Internal Rate of Return (IRR) is the rate that makes:",
+        "choices": [
+          "NPV equal to zero",
+          "Revenue equal to expenses",
+          "Assets equal to liabilities",
+          "Cash flow equal to profit"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Profitability Index is calculated as:",
+        "choices": [
+          "PV of Future Cash Flows ÷ Initial Investment",
+          "Profit ÷ Sales",
+          "Assets ÷ Equity",
+          "Revenue ÷ Expenses"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Raising funds by issuing shares of stock is called:",
+        "choices": [
+          "Equity financing",
+          "Debt financing",
+          "Bond financing",
+          "Loan financing"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Borrowing money from lenders is called:",
+        "choices": [
+          "Debt financing",
+          "Equity financing",
+          "Dividend financing",
+          "Asset financing"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Weighted Average Cost of Capital (WACC) represents:",
+        "choices": [
+          "Average cost of all financing sources",
+          "Total company profit",
+          "Employee salaries",
+          "Total sales revenue"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Which type of financial risk occurs when a borrower cannot repay a loan?",
+        "choices": [
+          "Credit Risk",
+          "Market Risk",
+          "Liquidity Risk",
+          "Operational Risk"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "question": "Which financial risk is caused by system failures or human errors?",
+        "choices": [
+          "Operational Risk",
+          "Market Risk",
+          "Credit Risk",
+          "Liquidity Risk"
         ],
         "answer": 0
       }
